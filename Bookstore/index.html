@@ -1,0 +1,160 @@
+<!DOCTYPE  html>
+<html>
+	<head>
+		
+		<style>
+			body{
+				
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position-x: center;
+				background-position-y:center; 
+				text-align: justify;
+				text-align: center;
+				
+			}
+			.mySlides {display:none;}
+		</style>
+		<meta charset="UTF-8"  />
+		<title>Bookstore</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		
+		<script src="js/jquery2.js"> </script>
+		<script type="text/javascript" src="js/bootstrap.min.js" > </script>
+		
+		
+		<script src="js/main.js" type="text/javascript"> </script>
+		
+		
+			
+			
+		
+		
+	</head>
+	<body>
+		<!--/*menu bar code here*/ -->
+		<div class="navbar navbar-fixed-top" style="background-color: grey; color: white;font-size: 26">
+			<div class="container-fluid">
+				<h3 style="color: white">
+				<div class="navbar-header">
+					<a href="index.html" class="navbar-brand" style="color: white">Bookstore</a>
+				</div>
+				
+				<ul class="nav navbar-nav" style="text-align: center; color: white; font-size: 26">
+					<li>
+						<a href="index.html" style="color: white">Home</a>
+					</li>
+					<li>
+						<a href="bookdescription_page.html" style="color: white">Book description</a>
+					</li>
+					<li>
+						<a href="booksearch.php" style="color: white">Book search</a>
+					</li>
+					<li>
+						<a href="contact.php" style="color: white">Contact</a>
+					</li>
+					
+					<li>
+						<a href="viewcontacts.php" style="color: white">View Comments</a>
+					</li>
+				</ul>
+				</h3>
+
+
+</div>
+</div>
+<p> <br /></p>
+<p><br /></p>
+<p><br /></p>
+<!-- content part -->
+<div class="container">
+	<div>
+		<!-- slider -->
+	<div class="w3-content w3-section" style="max-width:500px;">
+  <img class="mySlides w3-animate-top" src="images/book1.jpg" style="width:900px;height: 400px;text-align: center">
+  <img class="mySlides w3-animate-bottom" src="images/book10.jpg" style="width:900px;height: 400px">
+  <img class="mySlides w3-animate-top" src="images/book2.jpg" style="width:900px;height: 400px">
+  <img class="mySlides w3-animate-bottom" src="images/book3.jpg" style="width:900px;height: 400px">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3500);    
+}
+</script>
+ 
+</div>
+	</div>
+	<!-- description part-->
+	<hr />
+	<div class="row">
+		<div class="col-md-1">
+			
+		</div>
+		<div class="col-md-8">
+			<p style="font-family: Arial, Helvetica, sans-serif;font-size: 18;font-weight: bold"> 
+			Welcome to our book catalog site. With us you are able to view very many books that we have in our store. You are able to
+			to search the book of your choice then also be able to download the book. the search section can work best if the book you
+			 are looking for is not in the book description section. you can also contatc us on the contact section in which you can 
+			 contact us via the number privided or you can leave a message via the contact form provided.
+			 
+			</p>
+		</div>
+		
+	</div>
+	<hr />
+	<div class="row">
+		<div class="col-md-1"> </div>
+		<div class="col-md-5">
+			<!--events and news-->
+			<div class="panel panel-success">
+				<div class="panel-heading">
+				<h3>	Latest news</h3>
+				</div>
+				<div class="panel-body"> 
+					<b>
+					<ul class="nav navbar-nav">
+						<li>New Programming books available</li><br />
+						<li>Database now being like by many students</li>
+						
+					</ul>
+					</b>
+					</div>
+			</div>
+			</div>
+			<div class="col-md-5">
+			<div class="panel panel-info">
+				<div class="panel-heading">
+				<h3>	Latest Events</h3>
+				</div>
+				<div class="panel-body">
+					<b>
+					<ul class="nav navbar-nav">
+						<li>Group discussions to commence after assignments</li>
+						
+					</ul>
+					</b>
+				</div>
+			</div>
+			</div>
+	</div>
+	<!--footer-->
+	<div class="panel-footer">
+		&copy;
+		welcome to our book store. contact +61-497-913-797
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+
+CREATE DATABASE bookstore;
+
+CREATE TABLE books (
+    isbn             VARCHAR2(20) NOT NULL,
+    field            VARCHAR2(20),
+    title            VARCHAR2(20),
+    year_published   VARCHAR2(20),
+    author           VARCHAR2(200),
+    "desc"           VARCHAR2(200),
+    image            VARCHAR2(200)
+);
+
+ALTER TABLE books ADD CONSTRAINT books_pk PRIMARY KEY ( isbn );
+
+CREATE TABLE contact (
+    c_id      INTEGER NOT NULL,
+    names     LONG,
+    email     VARCHAR2(20),
+    subject   CHAR(20),
+    message   VARCHAR2(20)
+);
+
+ALTER TABLE contact ADD CONSTRAINT contact_pk PRIMARY KEY ( c_id );
+
+INSERT INTO BOOKS VALUES(25452121,'TECHNOLOGY','LAMP',2012,'DAN BROWN','A web programming book','');
+INSERT INTO BOOKS VALUES(2,'TECHNOLOGY','HTML',2012,'DINESH','A HTML','');
+INSERT INTO BOOKS VALUES(3,'TECHNOLOGY','JAVA',2012,'sURYA','A HTML','');
+INSERT INTO BOOKS VALUES(4,'TECHNOLOGY','JQUERY',2016,'RANJITH','Dynamic web pages','');
+INSERT INTO BOOKS VALUES(5,'TECHNOLOGY','PHP',2016,'SAI KIRAN','PHP and MySQL','');
+INSERT INTO BOOKS VALUES(6,'TECHNOLOGY','Oracle',2015,'SURYA','Oracle, JDBC','');
+
+update books set field='technology',title='semantic',author='john hebler' where isbn=1;
+
+
+
