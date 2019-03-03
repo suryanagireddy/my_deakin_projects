@@ -1,0 +1,13 @@
+  
+
+CREATE TABLE "user" (
+    staff_id    INTEGER NOT NULL,
+    username    VARCHAR2(200),
+    privilege   CHAR(20)
+);
+
+ALTER TABLE "user" ADD CONSTRAINT user_pk PRIMARY KEY ( staff_id );
+
+
+
+INSERT INTO user Values ('admin','SIT780','admin');

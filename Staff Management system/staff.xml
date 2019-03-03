@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<staffdata>
+	<staff>
+		<staff_id>1</staff_id>
+		<email>nagireddysurya7@gmail.com</email>
+		<givenname>Surya</givenname>
+		<surname>Nagireddy</surname>
+		<address>7 Chestnut Street, Carnegie</address>
+	</staff>
+	<staff>
+	<staff_id>2</staff_id>
+	<email>ranjith.jnk@gmail.com</email>
+	<givenname>Ranjith</givenname>
+	<surname>Janapareddi</surname>
+	<address>12 Thomas Street, Clayton</address>
+	</staff>
+<staff><staff_id>3</staff_id><email>dinesh.n.9999@gmail.com</email><givenname>Dinesh</givenname><surname>Nagumothu</surname><address>43 Spring Street, Preston</address></staff><staff><staff_id>4</staff_id><email>sreesuryanursery@gmail.com</email><givenname>Satya</givenname><surname>Nagireddy</surname><address>CHEMUDULANKA, Andhra Pradesh 533234</address></staff><staff><staff_id>5</staff_id><email>ndurgavani@gmail.com</email><givenname>Vani</givenname><surname>Nagireddy</surname><address>Vishakapatnam,Andhra Pradesh</address></staff><staff><staff_id>6</staff_id><email>kanna@gmail.com</email><givenname>Shilpa</givenname><surname>Soni</surname><address>Ranchi,Jharkand</address></staff></staffdata>
