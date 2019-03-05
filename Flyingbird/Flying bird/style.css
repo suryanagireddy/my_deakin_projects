@@ -1,0 +1,62 @@
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	
+}
+#container{
+	position: relative;
+	height: 400px;
+	width: 90%;
+	border: 2px solid red;
+	background: url('images/image1.jpg');
+	background-color: aliceblue;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 4%;
+	overflow: hidden;
+}
+#bird{
+	position: absolute;
+	background: url('images/bird1.png');
+	height: 42px;
+	width: 45px;
+	
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 20%;
+	left: 15%;
+}
+.pole{
+	position: absolute;
+	height: 100px;
+	width: 50px;
+	background-color: black;
+	right: -50px;
+	
+}
+#pole_1{
+	top: 0;
+	
+	
+}
+#pole_2{
+	background-color: black;
+	bottom: 0;
+}
+#score_div{
+	text-align: center;
+	font-size: 40px;
+}
+#restart_btn{
+	position: absolute;
+	top: 100px;
+	padding: 20px;
+	width: 100%;
+	background-color: blue;
+	color: white;
+	font-size: 35px;
+	border: none;
+	cursor: pointer;
+	display: none;
+}

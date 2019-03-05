@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name='viewport' content='width = device-width, initial-scale=1.0, user-scalable=no' />
+		<title>FlyingBird</title>
+		<link rel="stylesheet" href="style.css" />
+		<script type="text/javascript" src="js/jquery-2.1.3.min.js"> </script>
+		<script src="js/jquery2.js"> </script>
+		<script type="text/javascript" src="js/introtoapps.min.js"> </script>
+		<script src="js/main.js"> </script>
+	</head>
+	<body>
+	 <!--the container holding the game-->
+		<div id="container">
+			<!--the div for the bird moving on the screen-->
+			<div id="bird">	</div>
+			<!-the poles in which the bird will pass between to increase the score--->
+			<div id="pole_1" class="pole"> </div>
+			<div id="pole_2" class="pole"> </div>
+			
+		</div>
+		<div id="score_div"> 
+		<!--scrore and the speed divs which are increamented when the bird successfully moves in the screen-->
+		<p><b>Score: </b><span id="score">0</span></p>
+		<p><b>Speed: </b><span id="speed">10</span></p>
+		
+		</div>
+		<!--displaying my name and the ssid-->
+		<div>
+		<b>Name: Nagireddy Surya Rao<br />
+		SSID: 216283458<br /></b>
+		</div>
+		<!--the restart button which will be displayed only when the bird collides on the screen-->
+		<button id="restart_btn">Game Over.<br>Restart</button>
+		<audio autoplay="autoplay">
+     <source src="audio/bmusic.mp3" />     
+ </audio>
+		
+	</body>
+</html>
